@@ -141,7 +141,7 @@ static  char    *ft_createline(char *static_buf, char *buf)
         return (NULL);
     ft_putstr(tmp);
     //ft_putchar('\n');
-    ft_putstr("tmp dans createline\n");
+    ft_putstr("tmp within createline\n");
     ft_memdel((void **)&static_buf);
     return (tmp);
 }
