@@ -205,7 +205,7 @@ int             get_next_line(int const fd, char **line)
     if (ft_returnval(static_buf, nread) == 1)
     {
         ft_putstr(static_buf);
-        ft_putstr("static buf before ft_returnval\n");
+        ft_putstr("here static_buf doesn't clear itself after the first \\n once it leaves ft_returnval\n");
         return (1);
     }
     ft_putstr(static_buf);
